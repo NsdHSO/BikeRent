@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/list"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@+string/Image"
+
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/btn_plus"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/emailList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"
+
+        android:background="@drawable/border_list"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/bikeList" />
+
+    <TextView
+        android:id="@+id/bikeList"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="48dp"
+        android:textAlignment="center"
+        android:background="@drawable/border_list"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/price"
+        android:background="@drawable/border_price"
+
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/emailList" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

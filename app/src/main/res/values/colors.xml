@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="border">#e86252</color>
+    <color name="borderStroke">#361134</color>
+    <color name="borderTextStroke">#EFB9CB</color>
+    <color name="borderText">#E6ADEC</color>
+    <color name="list">#bdb2ff</color>
+    <color name="borderListStroke">#ffd6a5</color>
+    <color name="borderList">#caffbf</color>
+    <color name="borderListStrokePrice">#ffadad</color>
+    <color name="borderListPrice">#ffd6a5</color>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BikeRental</string>
+    <string name="fiki">Fiki</string>
+    <string name="register">Register</string>
+    <string name="list_item">List Item</string>
+    <string name="price"></string>
+    <string name="insert">Insert Item</string>
+</resources>
